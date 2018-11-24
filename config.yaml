@@ -1,0 +1,107 @@
+baseurl: "https://tideyzhang.name/"
+languageCode: "en-us"
+title: "张潮"
+theme: "hugo-ivy"
+googleAnalytics: "UA-129751501-1"
+disqusShortname: "tideyzhang"
+ignoreFiles: ["\\.Rmd$", "_files$", "_cache$"]
+hasCJKLanguage: true
+enableEmoji: true
+footnotereturnlinkcontents: "↩"
+rssLimit: 100
+
+permalinks:
+  blog: "/blog/:year/:month/:slug/"
+  collection: "/collection/:year/:month/:slug/"
+
+menu:
+  main:
+    - name: "博客"
+      url: "/blog/"
+      weight: 1
+    - name: "搜集"
+      url: "/collection/"
+      weight: 2
+    - name: "链接"
+      url: "/blog/link/"
+      weight: 3
+    - name: "关于"
+      url: "/about/"
+      weight: 4
+  blog:
+    - name: "博客"
+      url: "/blog/"
+      weight: 1
+    - name: "搜集"
+      url: "/collection/"
+      weight: 2
+    - name: "链接"
+      url: "/blog/link/"
+      weight: 3
+    - name: "关于"
+      url: "/about/"
+      weight: 4
+  collection:
+    - name: "博客"
+      url: "/blog/"
+      weight: 1
+    - name: "搜集"
+      url: "/collection/"
+      weight: 2
+    - name: "链接"
+      url: "/blog/link/"
+      weight: 3
+    - name: "关于"
+      url: "/about/"
+      weight: 4
+
+
+
+params:
+  description: "Personal website of tideyzhang;  张潮的个人网站"
+  footer: "&copy; [tideyzhang](/) 2005 - 2018"
+  disqusURL: "https://tideyzhang.name"
+  customJS: ["js/fix-toc.js", "js/center-img.js", "js/right-quote.js", "js/no-highlight.js", "js/fix-footnote.js", "js/math-code.js", "js/external-link.js", "js/alt-title.js"]
+#  githubContentURL: "https://github.com/rbind/yihui/edit/master/content/"
+#  twitterImage: "/images/logo.png"
+
+  # options for highlight.js (version, additional languages, and theme)
+  highlightjsVersion: "9.12.0"
+  highlightjsCDN: "//cdn.bootcss.com"
+  highlightjsLang: ["r", "yaml", "tex"]
+  highlightjsTheme: "github"
+
+  logo:
+    en:
+      img: "/images/logo.png"
+      url: "/"
+      alt: "tideyzhang"
+      tag: ""
+      #此处不可以去掉，否则会报错！
+#    knitr:
+#      img: "/knitr/images/knit-logo.png"
+#      url: "/knitr/"
+#      alt: "knitr logo"
+#      tag: "knitr: elegant, flexible, and fast dynamic report generation with R"
+#    tinytex:
+#      img: "/images/logo-tinytex.png"
+#      url: "/tinytex/"
+#      alt: "tinytex logo"
+#      tag: "TinyTeX: A lightweight and easy-to-maintain LaTeX distribution"
+
+  author: 
+#    en: "Yihui Xie"
+    blog: "张潮"
+#    animation: "Yihui Xie & Lijia Yu"
+
+  lang:
+    edit:
+      blog: "编辑"
+    license:
+      blog: "版权"
+    subscribe:
+      blog: "订阅"
+
+#blackfriday:
+#    extensionsmask: ["noIntraEmphasis"]
+#    fractions: false

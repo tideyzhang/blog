@@ -1,4 +1,3 @@
-[submodule "public"]
-	path = public
-	url = git@github.com:tideyzhang/tideyzhang.github.io.git
-	branch = master
+[submodule "themes/hugo-ivy"]
+	path = themes/hugo-ivy
+	url = https://github.com/yihui/hugo-ivy.git
