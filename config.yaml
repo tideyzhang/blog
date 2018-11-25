@@ -102,6 +102,6 @@ params:
     subscribe:
       blog: "订阅"
 
-#blackfriday:
-#    extensionsmask: ["noIntraEmphasis"]
-#    fractions: false
+blackfriday:
+    extensionsmask: ["noIntraEmphasis"]
+    fractions: false
