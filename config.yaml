@@ -89,7 +89,7 @@ params:
 #      alt: "tinytex logo"
 #      tag: "TinyTeX: A lightweight and easy-to-maintain LaTeX distribution"
 
-  author: 
+  author:
 #    en: "Yihui Xie"
     blog: "张潮"
 #    animation: "Yihui Xie & Lijia Yu"
@@ -103,5 +103,10 @@ params:
       blog: "订阅"
 
 blackfriday:
-    extensionsmask: ["noIntraEmphasis"]
+    extensionsmask: ["noIntraEmphasis","spaceHeaders"]
+    extensions: ["hardLineBreak","noEmptyLineBeforeBlock"]
     fractions: false
+    latexDashes: false
+    #false disables LaTeX-style smart dashes and selects conventional smart dashes. Assuming smartDashes:If true, -- is translated into – (&ndash;), whereas --- is translated into — (&mdash;).
+    noEmptyLineBeforeBlock: true
+    
