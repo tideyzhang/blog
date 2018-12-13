@@ -1,11 +1,5 @@
-This is a repo to host the (Markdown) source files of my personal website, including my Chinese and English blogs, as well as several project websites (such as [**knitr**](https://github.com/yihui/knitr).) The content of all pages is licensed under [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+这是张潮个人网站[CHAOS](https://tideyzhang.me)的源文件，如果你在文章中看到字词的错误，欢迎提交。
 
-To build the website locally, you must clone this repo with its submodule (use the `--recursive` argument), e.g.,
+本网站架构移植自谢益辉的[个人网站](https://yihui.name/)，采用 [HUGO](https://gohugo.io/) 建站，并且托管在 github 上。
 
-```bash
-git clone --recursive git@github.com:rbind/yihui.git
-```
-
-The website is built via the R package [**blogdown**](https://github.com/rstudio/blogdown). Please read its documentation for how to use it.
-
-I don't recommend you to study how my website is built, because it is complicated. In particular, the way I manage images is fairly complicated.
+本站所有页面内容遵循协议：[CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/)。

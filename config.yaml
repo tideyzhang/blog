@@ -1,6 +1,6 @@
 baseurl: "https://tideyzhang.name/"
 languageCode: "en-us"
-title: "张潮"
+title: "CHAOS"
 theme: "hugo-ivy"
 googleAnalytics: "UA-129751501-1"
 disqusShortname: "tideyzhang"
@@ -109,4 +109,3 @@ blackfriday:
     latexDashes: false
     #false disables LaTeX-style smart dashes and selects conventional smart dashes. Assuming smartDashes:If true, -- is translated into – (&ndash;), whereas --- is translated into — (&mdash;).
     noEmptyLineBeforeBlock: true
-    
