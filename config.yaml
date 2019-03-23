@@ -14,6 +14,7 @@ permalinks:
   blog: "/blog/:year/:month/:slug/"
   collection: "/collection/:year/:month/:slug/"
 
+
 menu:
   main:
     - name: "博客"
